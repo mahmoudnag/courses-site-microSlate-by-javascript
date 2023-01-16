@@ -1,0 +1,84 @@
+body {
+    background-color: #f5f8ff;
+}
+
+.divprofile {
+    position: relative;
+     background-image: url(../photo/df.jpg);
+    background-size: auto;
+    text-align: center;
+    height: 600px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 210px;
+    padding-top: 200px;
+    padding-right: 200px;
+    border: 1px solid rgb(34, 33, 33);
+    border-radius: 20px;
+    box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1);
+    
+
+}
+
+#profile_image {
+    position: absolute;
+    float: right;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: rgb(228, 220, 220);
+    top: 30px;
+    left: 850px;
+    border-radius: 50%;
+
+
+
+}
+
+.divprofile .data {
+    
+    color: rgb(0, 115, 255);
+    position: relative;
+    left: 30px;
+    margin-bottom: 50px;
+    ;
+    margin-right: 150px;
+    padding-top: 10px;
+    ;
+    background-color: rgb(217, 221, 230);
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid silver;
+    text-decoration: none;
+    border-radius: 50px;
+    font-style: italic;
+}
+
+#name {
+    position: absolute;
+    top: 120px;
+    left: 840px;
+    font-weight: bold;
+    font-size: larger;
+
+}
+
+.data :hover {
+    width: 320px;
+    height: 60px;
+}
+
+#logout {
+    font-size: x-large;
+    text-decoration: none;
+    color: rgb(199, 12, 12);
+}
+
+#mylink {
+
+    text-decoration: none;
+    color: rgb(0, 115, 255);
+
+}

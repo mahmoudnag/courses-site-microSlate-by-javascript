@@ -1,0 +1,63 @@
+  {"data": [
+      {
+        "courseName": "c#",
+        "category": "programing",
+       "price": "30",
+        "image": "photo/c.jpg"
+      },
+      {
+        "courseName": "Html",
+        "category": "programing",
+        "price": "49",
+       "image": "photo/dd.png"
+      },
+      {
+        "courseName": "android",
+        "category": "android",
+        "price": "99",
+        "image": "photo/android2.png"
+      },
+      {
+        "courseName": "advanced android",
+        "category": "android",
+        "price": "29",
+        "image": "photo/android.jfif"
+      },
+      {
+        "courseName": "Css",
+        "category": "programing",
+        "price": "129",
+        "image": "photo/css.png"
+      },
+      {
+        "courseName": "sql",
+        "category": "programing",
+        "price": "89",
+        "image": "photo/sql.jpg"
+      },
+      {
+        "courseName": "basic freelancing",
+        "category": "freelancing",
+        "price": "189",
+        "image": "photo/frealancing1.webp"
+      },
+      {
+        "courseName": "advanced freelancing",
+        "category": "freelancing",
+        "price": "49",
+        "image": "photo/freelancing2.jpg"
+      },
+      {
+        "courseName": "word",
+        "category": "icdl",
+        "price": "49",
+        "image": "photo/word.png"
+      },
+      {
+        "courseName": "powerpint",
+        "category": "icdl",
+        "price": "49",
+        "image": "photo/powerpoint.jpg"
+      }
+    ]
+  }

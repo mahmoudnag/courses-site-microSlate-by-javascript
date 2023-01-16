@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+* {
+
+    box-sizing: border-box;
+
+}
+
+
+
+.contain {
+    width: 1200px;
+    margin: auto;
+}
+
+.navbar {
+    background-color: #edf3f5;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left:0;
+
+
+
+}
+
+.log {
+    float: left;
+    width: 40%;
+    text-transform: uppercase;
+
+}
+
+.link {
+    float: left;
+    width: 60%;
+    margin-top: 15px;
+
+
+}
+
+ul {
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+.link li {
+
+    display: inline-block;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+
+.link li.active {
+
+    color: black;
+
+}
+
+.link li a {
+
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.link li a:hover {
+    color: rgb(150, 133, 78);
+    text-decoration: underline;
+
+}
+.active.log{
+
+    float: left;
+    position: absolute;
+    left: 94%;
+}
+.active.reg{
+
+    float: left;
+    position: absolute;
+    left: 86%;
+}
+
+
+
+
+
+

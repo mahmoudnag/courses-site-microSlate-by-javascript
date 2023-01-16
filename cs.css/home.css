@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+
+.profile
+{
+    position: absolute;
+    height:900px;
+    width: 20%;
+    top: 67px;
+    left: 0px;
+    float: left;
+    margin-left: 0;
+    background-color: #edf3f5;
+    border: 1px solid black;
+}
+.profile #proflink 
+{
+    position: absolute;
+    text-shadow: 2px 2px silver;
+    padding-top: 20px;
+    font-size: larger;
+    margin-left: 10px;;
+   
+
+}    
+#proflink
+{
+    text-decoration: none;
+    color: black;
+   
+
+}
+#logout
+{
+    position: absolute;
+   
+    margin-top: 70px;
+    font-size: large;
+    margin-left: 0;
+    text-decoration: none;
+    color: rgb(199, 12, 12);
+}
+#welcome
+{
+    position: relative;
+   
+    left: 550px;
+    font-size: 200px;
+}
+
+
+#imgbackground
+{ 
+    position: relative;
+    top: 100px;
+    height: 650px;
+    width: 1500px;
+    opacity: .2;
+   
+}
+h1{
+    position: relative;
+    top: 150px;
+    left: 200px;
+    font-style: italic;
+}
+span
+{
+    color: red;
+    font-style: italic;
+}

@@ -1,0 +1,33 @@
+body {
+    background-color: #f5f8ff;
+}
+
+#full {
+    text-align: center;
+    position: relative;
+    top: 150px;
+    left: 220px;
+}
+
+.course {
+    position: relative;
+    margin-right: 100px;
+    display: inline;
+    float: left;
+    border: 1px solid rgb(54, 52, 52);
+    border-radius: 10px;
+    box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1);
+}
+.course:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+p {
+    font-size: larger;
+    font-weight: bold;
+}

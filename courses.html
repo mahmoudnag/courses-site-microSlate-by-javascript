@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>course</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="cs.css/courses.css" />
+  <link rel="stylesheet" href="cs.css/navbar.css">
+
+</head>
+
+<body>
+<!-- -----------------------------------------------------------------------------navbar------------------------------------------------------------------------------------ -->
+  <div class="navbar ">
+    <div class="contain">
+      <div class="log">
+        <h2>MicroSlate</h2>
+      </div>
+      <ul class="link">
+        <li class="active"> <a href="home.html">home</a> </li>
+                 <li class="active"><a href="courses.html">courses</a></li>
+                 <li class="active"> <a href="coursesCart.html" onclick=" OpenCartWindow()">courses cart</a></li>
+                 <li class="active"> <a href="profile.html">profile</a></li>
+                 <li class="active"><a href="about.html">about us</a></li>
+                 <li class="active"> <a href="contact us.html">contact us</a></li>
+       
+      </ul>
+    </div>
+  </div>
+<a href=""></a>
+  <!-- --------------------------------------------------------------------------------main----------------------------------------------------------------------------------------------- -->
+
+  <div class="wrapper">
+    <div id="search-container">
+      <input type="search" id="search-input" placeholder="Search Course Name" />
+      <button id="search">Search</button>
+    </div>
+    <div id="buttons">
+      <button class="button-value" onclick="filterProduct('all')"> All</button>
+      <button class="button-value" onclick="filterProduct('programing')"> Programing</button>
+      <button class="button-value" onclick="filterProduct('icdl')"> Icdl</button>
+      <button class="button-value" onclick="filterProduct('freelancing')"> Freelancing</button>
+      <button class="button-value" onclick="filterProduct('android')"> Android</button>
+    </div>
+    <div id="courses"></div>
+  </div>
+
+  <script src="script/courses.js"></script>
+ 
+  <script>
+
+    
+
+
+  // document.getElementById("text").onmousedown=function(){
+
+  //   alert("add")
+  // }
+  </script>
+  <!-------------------------------------------------------------------------- pop  ----------------------------------------------------------------------------------------------------------------------------- -->
+  <div class="chat-popup" id="myForm" style="width: 400;height:  700px;">
+    <form action="show.html" class="form-container">
+      <table>
+          <tr>
+  
+              <td>
+  
+                  <div>
+                    <h3 id="hform" style="color: black;">   </h1>
+                      <img id="im1"> 
+  
+                      <img src="https://imgprd19.hobbylobby.com/c/6c/c1/c6cc1fe766f35a04f6444e262a2303e065a9fe03/1400Wx1400H-230714-0819-px.jpg" style="height: 30px; width: 30px;"> 
+                      <label style="color: yellow; font-weight: 100px;">4.7 </label>               
+  
+                      <label >1,026 ratings</label>               
+                      <label >.260 reviews</label> 
+                      <hr>
+                      <h1 style="margin-left: 50px;"> View about the course</h1>
+                      <p style="font-size:15px ;">Thanks to a growing number of software programs,<br> it seems as if anyone can make a webpage. <br>
+                          But what if you actually want to understand how the page was created? <br>There are great textbooks <br>
+                          and online resources for ebpage?), <br>the practical (what do I need to know to make my own page?),<br>
+                           and the overlooked (I have a page, what do I do now?). Throughout the course<br> there will be a strong emphasis on adhering to syntactic<br>
+                            can see a sample site for the capstone course at http://intro-webdesign.com/</p>
+  
+                  </div>
+              </td>
+          </tr>
+      </table>
+  
+      <button type="submit" class="btn">show<a href="show.html"></a></button>
+      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+
+    </form>
+  </div>
+  
+
+</body>
+
+</html>

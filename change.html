@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>About Us</title>
+    <link rel="stylesheet" href="cs.css/navbar.css">
+    <link rel="stylesheet" href="cs.css/contact us.css">
+    <style>
+        #chamgepassword {
+            position: relative;
+            margin-top: 130px;
+            text-align: center;
+        }
+
+        #spancheck {
+            color: red
+        }
+    </style>
+</head>
+
+<body>
+    <div id="chamgepassword">
+        <span id="spancheck"></span> <br><br>
+        <label>your password</label>
+        <input type="password" id="old_password">
+        <br><br>
+        <label>New password</label>
+        <input type="password" id="new_password">
+    </div>
+
+
+
+    <script>
+        var old_password = document.getElementById('old_password');
+        old_password.addEventListener('blur', () => {
+
+            var checkpassword = localStorage.getItem('password');
+            console.log(old_password.value);
+            console.log(checkpassword);
+
+            if (checkpassword != old_password.value) {
+                document.getElementById('spancheck').innerHTML = 'password incorrect'
+
+            }
+            else {
+                var newpassword = document.getElementById('new_password');
+                newpassword.addEventListener('blur',
+                    () => {
+
+                        var newpassword = document.getElementById('new_password').value;
+                        localStorage.setItem('password', newpassword);
+                        document.getElementById('spancheck').style = 'display:none';
+                    })
+            }
+        }
+        )
+
+
+    </script>
+
+</body>
+
+</html>
